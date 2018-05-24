@@ -1,5 +1,12 @@
 # vw-
 vw  rem 适配
+```html
+<script>
+    //13.33333vw 计算方法
+    //1.假设设计稿 是 750px  设宽度为7.5rem   那么 html-font-size = 750px/7.5rem = 100px
+    //2.此时 100vw = 750px     1vw = 7.5px   100px =  1vw/7.5px *100 = 13.3333vw  
+</script>
+<style>
 @media screen and (max-width:320px) {
     html {
         font-size: 42.667px;
@@ -83,3 +90,5 @@ vw  rem 适配
         font-size: 13.33333vw
     }
 }
+</style>
+```
